@@ -13,6 +13,9 @@ return this.props.todos.map((todo)=>(
 }
 //PropTypes
 Todos.propTypes = {
-    todos: PropTypes.array.isRequired
+    todos: PropTypes.array.isRequired,
+    markComplete: PropTypes.func.isRequired,
+    delToDo: PropTypes.func.isRequired
+
 }
 export default Todos;

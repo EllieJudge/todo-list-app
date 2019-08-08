@@ -129,7 +129,9 @@ Now we are adding a backend typicode thing we can delete previous code that used
     completed: false
   }
 
+componentDidMount() method(google it)
 
+res == respond
 
 
 
